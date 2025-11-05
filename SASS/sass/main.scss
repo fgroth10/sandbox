@@ -1,0 +1,12 @@
+
+@use 'colors';
+@use 'fonts';
+@use 'layout';
+@use 'components';
+
+body{
+    margin: 0;
+    font-family:fonts.$main-font;
+    color: colors.$primary-color;
+    font-size: fonts.$normal-font;
+    }
